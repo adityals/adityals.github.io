@@ -6,7 +6,7 @@
     <title>Aditya Lucky Septiadi | Software Engineer</title>
     <meta
       name="description"
-      content="Software engineer working across product and infrastructure. TypeScript, Go, build pipelines, proxies, and developer tooling."
+      content="Aditya Septiadi is a software engineer working across product and infrastructure with TypeScript and Go."
     />
     <meta
       name="keywords"
@@ -24,7 +24,7 @@
     <meta property="og:title" content="Aditya Lucky Septiadi | Software Engineer" />
     <meta
       property="og:description"
-      content="Software engineer working across product and infrastructure. TypeScript, Go, build pipelines, proxies, and developer tooling."
+      content="Aditya Septiadi is a software engineer working across product and infrastructure with TypeScript and Go."
     />
     <meta property="og:url" content="https://www.adityals.dev/" />
     <meta property="og:site_name" content="Aditya Lucky Septiadi" />
@@ -32,60 +32,62 @@
     <meta name="twitter:title" content="Aditya Lucky Septiadi | Software Engineer" />
     <meta
       name="twitter:description"
-      content="Software engineer working across product and infrastructure. TypeScript, Go, build pipelines, proxies, and developer tooling."
+      content="Aditya Septiadi is a software engineer working across product and infrastructure with TypeScript and Go."
     />
-    <link rel="preconnect" href="https://api.fontshare.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fragment+Mono&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="glow" aria-hidden="true"></div>
     <main class="page">
+      <div class="running-head" aria-label="Page heading">
+        <span>ADITYA(1)</span>
+        <span>General Commands Manual</span>
+        <span>ADITYA(1)</span>
+      </div>
       <header class="hero">
-        <h1>Aditya Lucky Septiadi</h1>
-        <p class="role">Software Engineer</p>
-        <p class="lede">
-          I build product features end to end, mostly in TypeScript and Go. The rest of my time goes
-          to infrastructure: build pipelines, proxies, developer tools, the work that keeps other
-          engineers' builds fast and their deploys uneventful. Off the clock it's the same instinct,
-          smaller stakes.
-        </p>
-        <p class="status">
-          <span class="status-label">Currently</span>
-          <span class="status-value">
-            building
-            <a class="status-link" href="https://app.myfiltranet.com/" target="_blank" rel="noreferrer">MyFiltraNet</a>
-          </span>
-        </p>
+        <div class="hero-copy">
+          <p class="command"><span aria-hidden="true">$</span> whoami</p>
+          <h1>Aditya Lucky Septiadi</h1>
+          <p class="role">Software engineer · product &amp; infrastructure</p>
+          <p class="lede">
+            I build product features end to end, then stay close to the systems behind them. My work
+            spans TypeScript and Go, from user-facing flows to build pipelines, proxies, and developer
+            tools that keep teams moving.
+          </p>
+        </div>
+        <aside class="focus" aria-label="Areas of focus">
+          <p class="focus-label">Focus</p>
+          <ul>
+            <li>Product systems</li>
+            <li>Web infrastructure</li>
+            <li>Developer tooling</li>
+          </ul>
+        </aside>
       </header>
 
       <section class="section" aria-labelledby="projects-title">
         <div class="section-head">
           <h2 id="projects-title">Projects</h2>
-          <p class="section-dek">A few things I've built and shipped.</p>
+          <p class="section-dek">Selected work, with the parts I owned.</p>
         </div>
 
         <ul class="project-list">
           <li class="project">
             <span class="dot" aria-hidden="true"></span>
             <div class="project-main">
-              <h3 class="project-title">MyFiltraNet <span class="tag">alpha</span></h3>
+              <h3 class="project-title">
+                <a class="project-title-link" href="https://app.myfiltranet.com" target="_blank" rel="noreferrer">MyFiltraNet</a>
+                <span class="tag">alpha</span>
+              </h3>
               <p class="project-body">
-                A DNS filter for Indonesian households: online gambling is blocked by default,
-                with optional filters for fraud, fake, and adult content. One pro account splits into
-                four profiles, the kids' devices can run strict while yours don't. Each with its
-                own categories and custom domain list. Browsing history is never stored. Wrote the
-                resolver and forwarder in Go, with the dashboard running as a HonoX app on
-                Cloudflare Workers backed by Hyperdrive.
+                A DNS filter for Indonesian households, with family profiles and category-level
+                controls. I built the resolver and forwarder in Go, and the dashboard as a HonoX app
+                on Cloudflare Workers backed by Hyperdrive. Browsing history is never stored.
               </p>
               <div class="project-foot">
                 <p class="tag-row">
@@ -102,12 +104,13 @@
           <li class="project">
             <span class="dot" aria-hidden="true"></span>
             <div class="project-main">
-              <h3 class="project-title">Shipplane</h3>
+              <h3 class="project-title">
+                <a class="project-title-link" href="https://shipplane.adityals.dev" target="_blank" rel="noreferrer">Shipplane</a>
+              </h3>
               <p class="project-body">
                 A self-hosted workflow orchestrator that chains tasks into a DAG and runs as a single
-                binary, with no database or extra infrastructure to stand up. Built the core
-                state-machine engine and two ways to drive it: a CLI for the terminal and a web UI
-                built on a framework-agnostic visualizer with React bindings for editing the graph.
+                binary. I built the core state-machine engine, a CLI, and a web UI with React bindings
+                for editing the graph.
               </p>
               <div class="project-foot">
                 <p class="tag-row">
@@ -128,37 +131,35 @@
           <h2 id="experience-title">Experience</h2>
         </div>
         <p class="story">
-          I started out building web and mobile software for banking clients, then moved into backend
-          work for a credit scoring platform and a bunch of internal tools. I landed in a large-scale
-          web platform doing a mix of frontend and infrastructure work: architecture, tooling,
-          performance, the unglamorous work that keeps a large product online. These days I gravitate
-          toward the infrastructure side, mostly because I like fixing the systems other engineers
-          rely on without thinking about them.
+          I started with web and mobile software for banking clients, moved into backend work for a
+          credit scoring platform, and later joined a large-scale web platform. Along the way, I’ve
+          worked across frontend architecture, performance, internal tooling, and infrastructure. I
+          tend to gravitate toward the systems other engineers rely on without thinking about them.
         </p>
       </section>
 
       <section class="section" aria-labelledby="contact-title">
         <div class="section-head">
           <h2 id="contact-title">Contact</h2>
-          <p class="section-dek">Always up for talking shop.</p>
+          <p class="section-dek">For thoughtful work, technical questions, or a good problem.</p>
         </div>
-        <ul class="pill-list">
+        <ul class="contact-list">
           <li>
-            <a class="pill" href="https://www.linkedin.com/in/aditya-lucky-septiadi" target="_blank" rel="noreferrer">
+            <a class="contact-link" href="https://www.linkedin.com/in/aditya-lucky-septiadi" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
           </li>
           <li>
-            <a class="pill" href="https://github.com/adityals" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="contact-link" href="https://github.com/adityals" target="_blank" rel="noreferrer">GitHub</a>
           </li>
           <li>
-            <a class="pill" href="mailto:aditseptiadi@gmail.com" target="_blank" rel="noreferrer">Email</a>
+            <a class="contact-link" href="mailto:aditseptiadi@gmail.com" target="_blank" rel="noreferrer">Email</a>
           </li>
         </ul>
       </section>
 
       <footer class="page-footer">
-        <p>© 2026 Aditya Septiadi</p>
+        <p>© 2026 Aditya Septiadi <span aria-hidden="true">·</span> <span>Last updated 2026</span></p>
       </footer>
     </main>
   </body>
