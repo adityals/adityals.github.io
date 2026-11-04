@@ -3,158 +3,359 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aditya Lucky Septiadi | Software Engineer</title>
+    <title>Aditya Lucky Septiadi | Frontend Platform &amp; Product Engineer</title>
     <meta
       name="description"
-      content="Aditya Septiadi is a software engineer working across product and infrastructure with TypeScript and Go."
-    />
-    <meta
-      name="keywords"
-      content="software engineer, fullstack engineer, web infrastructure, developer portfolio, TypeScript, Go"
+      content="Senior frontend engineer working on build tooling, web infrastructure, and React and TypeScript product UI, with Go where a frontend needs its own service."
     />
     <meta name="author" content="Aditya Lucky Septiadi" />
     <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0a0a0a" />
     <link rel="canonical" href="https://www.adityals.dev/" />
     <link
       rel="icon"
       type="image/svg+xml"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23070708'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%2300a3ee'/%3E%3C/svg%3E"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0a'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23f2f2f2' stroke-width='1.5'/%3E%3Ccircle cx='19' cy='16' r='9' fill='none' stroke='%23f2f2f2' stroke-width='1.5' opacity='.5'/%3E%3C/svg%3E"
     />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Aditya Lucky Septiadi | Software Engineer" />
+    <meta property="og:title" content="Aditya Lucky Septiadi | Senior Frontend Engineer" />
     <meta
       property="og:description"
-      content="Aditya Septiadi is a software engineer working across product and infrastructure with TypeScript and Go."
+      content="Senior frontend engineer working on build tooling, web infrastructure, and React and TypeScript product UI."
     />
     <meta property="og:url" content="https://www.adityals.dev/" />
     <meta property="og:site_name" content="Aditya Lucky Septiadi" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Aditya Lucky Septiadi | Software Engineer" />
-    <meta
-      name="twitter:description"
-      content="Aditya Septiadi is a software engineer working across product and infrastructure with TypeScript and Go."
-    />
+    <meta name="twitter:card" content="summary" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="page">
-      <header class="hero">
-        <div class="hero-copy">
-          <h1>Aditya Lucky Septiadi</h1>
-          <p class="role">Software engineer · product &amp; infrastructure</p>
-          <p class="lede">
-            I build product features end to end, then stay close to the systems behind them. My work
-            spans TypeScript and Go, from user-facing flows to build pipelines, proxies, and developer
-            tools that keep teams moving.
-          </p>
-        </div>
-        <aside class="focus" aria-label="Areas of focus">
-          <p class="focus-label">Focus</p>
-          <ul>
-            <li>Product systems</li>
-            <li>Web infrastructure</li>
-            <li>Developer tooling</li>
-          </ul>
-        </aside>
-      </header>
+    <a class="skip" href="#work">Skip to selected work</a>
 
-      <section class="section" aria-labelledby="projects-title">
-        <div class="section-head">
-          <h2 id="projects-title">Projects</h2>
-          <p class="section-dek">Selected work, with the parts I owned.</p>
-        </div>
-
-        <ul class="project-list">
-          <li class="project">
-            <span class="dot" aria-hidden="true"></span>
-            <div class="project-main">
-              <h3 class="project-title">
-                <a class="project-title-link" href="https://app.myfiltranet.com" target="_blank" rel="noreferrer">MyFiltraNet</a>
-                <span class="tag">alpha</span>
-              </h3>
-              <p class="project-body">
-                A DNS filter for Indonesian households, with family profiles and category-level
-                controls. I built the resolver and forwarder in Go, and the dashboard as a HonoX app
-                on Cloudflare Workers backed by Hyperdrive. Browsing history is never stored.
-              </p>
-              <div class="project-foot">
-                <p class="tag-row">
-                  <span class="tag tag-primary">Go</span>
-                  <span class="tag">Cloudflare Workers</span>
-                </p>
-                <a class="project-link" href="https://app.myfiltranet.com" target="_blank" rel="noreferrer">
-                  app.myfiltranet.com <span class="arrow">→</span>
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <li class="project">
-            <span class="dot" aria-hidden="true"></span>
-            <div class="project-main">
-              <h3 class="project-title">
-                <a class="project-title-link" href="https://shipplane.adityals.dev" target="_blank" rel="noreferrer">Shipplane</a>
-              </h3>
-              <p class="project-body">
-                A self-hosted workflow orchestrator that chains tasks into a DAG and runs as a single
-                binary. I built the core state-machine engine, a CLI, and a web UI with React bindings
-                for editing the graph.
-              </p>
-              <div class="project-foot">
-                <p class="tag-row">
-                  <span class="tag tag-primary">TypeScript</span>
-                  <span class="tag">Node.js</span>
-                </p>
-                <a class="project-link" href="https://shipplane.adityals.dev" target="_blank" rel="noreferrer">
-                  shipplane.adityals.dev <span class="arrow">→</span>
-                </a>
-              </div>
-            </div>
-          </li>
+    <header class="topbar">
+      <a class="topbar-name" href="#top">Aditya Lucky Septiadi</a>
+      <nav aria-label="Sections">
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#more">More</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">Frontend platform &amp; product engineer</h1>
+          <p class="lane">
+            I&#8217;m Aditya. I work on build tooling, web infrastructure, and the React and TypeScript
+            apps that run on them. I write Go when a frontend needs its own service.
+          </p>
+          <p class="lane-sub">Nine years across e-commerce, fintech, and corporate banking software.</p>
+          <div class="hero-next">
+            <p><span class="mono-label">Next</span> Senior frontend role on a platform or product team.</p>
+            <ul class="inline-links">
+              <li><a href="mailto:aditseptiadi@gmail.com">Email</a></li>
+              <li><a href="https://github.com/adityals" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/aditya-lucky-septiadi" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <figure class="hero-art" aria-hidden="true">
+          <svg class="flow" viewBox="0 0 600 360">
+            <path class="base" d="M0 18.0 C160 18.0 170 168.0 300 168.0 S440 70.0 600 70.0" pathLength="1" style="--i:0" />
+            <path class="glint" d="M0 18.0 C160 18.0 170 168.0 300 168.0 S440 70.0 600 70.0" pathLength="1" style="--i:0" />
+            <path class="base" d="M0 41.1 C160 41.1 170 169.7 300 169.7 S440 85.7 600 85.7" pathLength="1" style="--i:1" />
+            <path class="glint" d="M0 41.1 C160 41.1 170 169.7 300 169.7 S440 85.7 600 85.7" pathLength="1" style="--i:1" />
+            <path class="base" d="M0 64.3 C160 64.3 170 171.4 300 171.4 S440 101.4 600 101.4" pathLength="1" style="--i:2" />
+            <path class="glint" d="M0 64.3 C160 64.3 170 171.4 300 171.4 S440 101.4 600 101.4" pathLength="1" style="--i:2" />
+            <path class="base" d="M0 87.4 C160 87.4 170 173.1 300 173.1 S440 117.1 600 117.1" pathLength="1" style="--i:3" />
+            <path class="glint" d="M0 87.4 C160 87.4 170 173.1 300 173.1 S440 117.1 600 117.1" pathLength="1" style="--i:3" />
+            <path class="base" d="M0 110.6 C160 110.6 170 174.9 300 174.9 S440 132.9 600 132.9" pathLength="1" style="--i:4" />
+            <path class="glint" d="M0 110.6 C160 110.6 170 174.9 300 174.9 S440 132.9 600 132.9" pathLength="1" style="--i:4" />
+            <path class="base" d="M0 133.7 C160 133.7 170 176.6 300 176.6 S440 148.6 600 148.6" pathLength="1" style="--i:5" />
+            <path class="glint" d="M0 133.7 C160 133.7 170 176.6 300 176.6 S440 148.6 600 148.6" pathLength="1" style="--i:5" />
+            <path class="base" d="M0 156.9 C160 156.9 170 178.3 300 178.3 S440 164.3 600 164.3" pathLength="1" style="--i:6" />
+            <path class="glint" d="M0 156.9 C160 156.9 170 178.3 300 178.3 S440 164.3 600 164.3" pathLength="1" style="--i:6" />
+            <path class="base" d="M0 180.0 C160 180.0 170 180.0 300 180.0 S440 180.0 600 180.0" pathLength="1" style="--i:7" />
+            <path class="glint" d="M0 180.0 C160 180.0 170 180.0 300 180.0 S440 180.0 600 180.0" pathLength="1" style="--i:7" />
+            <path class="base" d="M0 203.1 C160 203.1 170 181.7 300 181.7 S440 195.7 600 195.7" pathLength="1" style="--i:8" />
+            <path class="glint" d="M0 203.1 C160 203.1 170 181.7 300 181.7 S440 195.7 600 195.7" pathLength="1" style="--i:8" />
+            <path class="base" d="M0 226.3 C160 226.3 170 183.4 300 183.4 S440 211.4 600 211.4" pathLength="1" style="--i:9" />
+            <path class="glint" d="M0 226.3 C160 226.3 170 183.4 300 183.4 S440 211.4 600 211.4" pathLength="1" style="--i:9" />
+            <path class="base" d="M0 249.4 C160 249.4 170 185.1 300 185.1 S440 227.1 600 227.1" pathLength="1" style="--i:10" />
+            <path class="glint" d="M0 249.4 C160 249.4 170 185.1 300 185.1 S440 227.1 600 227.1" pathLength="1" style="--i:10" />
+            <path class="base" d="M0 272.6 C160 272.6 170 186.9 300 186.9 S440 242.9 600 242.9" pathLength="1" style="--i:11" />
+            <path class="glint" d="M0 272.6 C160 272.6 170 186.9 300 186.9 S440 242.9 600 242.9" pathLength="1" style="--i:11" />
+            <path class="base" d="M0 295.7 C160 295.7 170 188.6 300 188.6 S440 258.6 600 258.6" pathLength="1" style="--i:12" />
+            <path class="glint" d="M0 295.7 C160 295.7 170 188.6 300 188.6 S440 258.6 600 258.6" pathLength="1" style="--i:12" />
+            <path class="base" d="M0 318.9 C160 318.9 170 190.3 300 190.3 S440 274.3 600 274.3" pathLength="1" style="--i:13" />
+            <path class="glint" d="M0 318.9 C160 318.9 170 190.3 300 190.3 S440 274.3 600 274.3" pathLength="1" style="--i:13" />
+            <path class="base" d="M0 342.0 C160 342.0 170 192.0 300 192.0 S440 290.0 600 290.0" pathLength="1" style="--i:14" />
+            <path class="glint" d="M0 342.0 C160 342.0 170 192.0 300 192.0 S440 290.0 600 290.0" pathLength="1" style="--i:14" />
+          </svg>
+        </figure>
       </section>
 
-      <section class="section" aria-labelledby="experience-title">
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-head">
+          <h2 id="work-title">Selected work</h2>
+          <p class="section-dek">
+            Three projects from a large Indonesian e-commerce company, with what I owned. Company
+            names and internal systems are left out.
+          </p>
+        </div>
+
+        <article class="case">
+          <div class="case-side">
+            <h3>Moving a large frontend monorepo from Webpack to Rspack</h3>
+            <p class="case-meta">Platform · Led, built solo · 2024–2026</p>
+            <ul class="figures">
+              <li class="fig-bar">
+                <span class="fig-label">CI build, 4 CPU</span><b>65 → 11 min</b>
+                <span class="bar" style="--before:100%;--after:17%" aria-hidden="true"></span>
+              </li>
+              <li class="fig-bar">
+                <span class="fig-label">CI build, 7 CPU</span><b>62 → 4 min</b>
+                <span class="bar" style="--before:95%;--after:6%" aria-hidden="true"></span>
+              </li>
+              <li class="fig-bar">
+                <span class="fig-label">Build memory</span><b>−30–40%</b>
+                <span class="bar" style="--before:100%;--after:65%" aria-hidden="true"></span>
+              </li>
+            </ul>
+          </div>
+          <dl class="case-body">
+            <dt>Problem</dt>
+            <dd>
+              The largest codebase in the web monorepo serves every internal tool in the company. A
+              build and deploy took over an hour, which slowed each release and ran up CI spend.
+            </dd>
+            <dt>My role</dt>
+            <dd>
+              I led the migration and wrote it alone. In 2026 I ran the same cutover on the client
+              build of the company's in-house web framework.
+            </dd>
+            <dt>Decisions</dt>
+            <dd>
+              The Webpack builds depended on custom Babel transforms. I ported them to SWC plugins
+              in Rust so application code stayed untouched. I published the config to the whole
+              monorepo, and for the framework I designed the cutover plan and the toolchain's
+              config surface.
+            </dd>
+            <dt>Result</dt>
+            <dd>
+              CI builds dropped 84% with zero app code changes. A second team adopted the config on
+              their own and went from 22 minutes to 1. On the framework, large services no longer
+              need <code>--max-old-space-size=8092</code>, and three high-traffic services now build
+              10–15× faster.
+            </dd>
+            <dt>Stack</dt>
+            <dd class="mono">Rspack · SWC · Rust · Webpack · Babel · TypeScript</dd>
+          </dl>
+        </article>
+
+        <article class="case">
+          <div class="case-side">
+            <h3>Isolated preview deploys for 50 frontend engineers</h3>
+            <p class="case-meta">Platform, full stack · Co-lead · 2022–2023</p>
+            <ul class="figures">
+              <li><b>50</b> engineers onboarded</li>
+              <li><b>~60</b> preview deploys a day</li>
+            </ul>
+          </div>
+          <dl class="case-body">
+            <dt>Problem</dt>
+            <dd>
+              Each domain had one shared staging environment. Engineers testing features overwrote
+              each other's deploys and waited in line for a clean slot.
+            </dd>
+            <dt>My role</dt>
+            <dd>I co-led the platform, led one engineer, and built the API and the UI.</dd>
+            <dt>Decisions</dt>
+            <dd>
+              A Go API on Chi accepts a preview request and hands it to workers over NSQ, so slow
+              builds never block the API. GitHub Actions does the build work: it bakes a Docker
+              image, and Terraform provisions one Cloud Run service per preview. A React UI lists,
+              opens, and tears down previews.
+            </dd>
+            <dt>Result</dt>
+            <dd>
+              Every feature branch got its own domain, close to how Vercel previews work. The
+              company retired the platform after an acquisition moved the web stack elsewhere.
+            </dd>
+            <dt>Stack</dt>
+            <dd class="mono">Go · Chi · NSQ · GitHub Actions · Terraform · Docker · Cloud Run · React</dd>
+          </dl>
+        </article>
+
+        <article class="case">
+          <div class="case-side">
+            <h3>Smaller, faster fintech web apps</h3>
+            <p class="case-meta">Product frontend · Main developer · 2021–2022</p>
+            <ul class="figures">
+              <li class="fig-bar">
+                <span class="fig-label">JS budget</span><b>300 → &lt;200 KB</b>
+                <span class="bar" style="--before:100%;--after:66%" aria-hidden="true"></span>
+              </li>
+              <li class="fig-bar">
+                <span class="fig-label">Initial load</span><b>−30%</b>
+                <span class="bar" style="--before:100%;--after:70%" aria-hidden="true"></span>
+              </li>
+              <li class="fig-bar">
+                <span class="fig-label">Mobile Lighthouse</span><b>~40 → ~80</b>
+                <span class="bar" style="--before:50%;--after:100%" aria-hidden="true"></span>
+              </li>
+            </ul>
+          </div>
+          <dl class="case-body">
+            <dt>Problem</dt>
+            <dd>
+              Five fintech web apps ran on a legacy React stack with no tests. Four product landing
+              pages loaded slowly on mobile.
+            </dd>
+            <dt>My role</dt>
+            <dd>Main developer on both the app rewrite and the landing pages, plus the Koa server layer behind them.</dd>
+            <dt>Decisions</dt>
+            <dd>
+              I rewrote class components as hooks, swapped Redux for context with reducers, and
+              replaced moment with dayjs. The apps moved to a new build toolchain and Emotion. On the
+              landing pages I turned on SSR, lazy-loaded everything below the fold, and deleted dead
+              code that JS coverage reports exposed.
+            </dd>
+            <dt>Quality</dt>
+            <dd>
+              The apps started with zero tests. I covered every critical path and business rule with
+              Jest before changing behavior.
+            </dd>
+            <dt>Stack</dt>
+            <dd class="mono">React · TypeScript · Emotion · Node.js · Koa · Jest</dd>
+          </dl>
+        </article>
+      </section>
+
+      <section class="section" id="more" aria-labelledby="more-title">
+        <div class="section-head">
+          <h2 id="more-title">More work</h2>
+          <p class="section-dek">Shorter notes on other projects.</p>
+        </div>
+
+        <ul class="rows">
+          <li class="row">
+            <h3>WebView debugging proxy</h3>
+            <p>
+              A MITM proxy that lets QA and engineers rewrite HTTP requests and responses inside the
+              app's WebView. QA setup time fell about 40%.
+            </p>
+            <span class="row-year">2025</span>
+          </li>
+          <li class="row">
+            <h3>Moving customer-service tools off Salesforce</h3>
+            <p>
+              I led the frontend and web infrastructure for a new partner portal with auth, partner
+              management, and ticketing. I also built the help centre's article editor, with
+              rich-text editing, and moved about 200 articles over with no P0 or P1 incidents.
+            </p>
+            <span class="row-year">2025</span>
+          </li>
+          <li class="row">
+            <h3>Credit-scoring API</h3>
+            <p>
+              Second lead on a Go service that scores customers for lending partners over REST and
+              gRPC. It reads from Elasticsearch, PostgreSQL, and Redis. I also built the Go and React
+              back office for operations.
+            </p>
+            <span class="row-year">2021–22</span>
+          </li>
+        </ul>
+
+        <div class="side-projects">
+          <article class="side">
+            <h3>
+              <a href="https://app.myfiltranet.com" target="_blank" rel="noreferrer">MyFiltraNet</a>
+              <span class="status">Alpha</span>
+            </h3>
+            <p>
+              A DNS filter for Indonesian households, with family profiles and per-category controls.
+              I wrote the resolver and forwarder in Go and the dashboard in HonoX on Cloudflare
+              Workers with Hyperdrive. The service keeps no browsing history.
+            </p>
+            <p class="mono">Go · Cloudflare Workers · HonoX</p>
+          </article>
+          <article class="side">
+            <h3><a href="https://shipplane.adityals.dev" target="_blank" rel="noreferrer">Shipplane</a></h3>
+            <p>
+              A self-hosted workflow orchestrator that chains tasks into a DAG and ships as a single
+              binary. I built the state-machine engine, a CLI, and a web UI with React bindings for
+              editing the graph.
+            </p>
+            <p class="mono">TypeScript · Node.js · React</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
         <div class="section-head">
           <h2 id="experience-title">Experience</h2>
         </div>
-        <p class="story">
-          I started with web and mobile software for banking clients, moved into backend work for a
-          credit scoring platform, and later joined a large-scale web platform. Along the way, I’ve
-          worked across frontend architecture, performance, internal tooling, and infrastructure. I
-          tend to gravitate toward the systems other engineers rely on without thinking about them.
-        </p>
+        <ol class="timeline">
+          <li>
+            <span class="t-period">2022 – 2026</span>
+            <div>
+              <h3>Senior Software Engineer</h3>
+              <p class="t-org">Large Indonesian e-commerce company</p>
+            </div>
+            <p>
+              Web platform and infrastructure: build tooling, observability, traffic routing, and
+              cloud migration, plus internal tools and customer-service products.
+            </p>
+          </li>
+          <li>
+            <span class="t-period">2019 – 2022</span>
+            <div>
+              <h3>Software Engineer</h3>
+              <p class="t-org">Same company, fintech</p>
+            </div>
+            <p>Product frontend for lending and savings features, then a Go credit-scoring API.</p>
+          </li>
+          <li>
+            <span class="t-period">2017 – 2019</span>
+            <div>
+              <h3>Software Developer</h3>
+              <p class="t-org">Payments company</p>
+            </div>
+            <p>
+              Web and hybrid mobile cash-management apps for two state-owned banks, with the Java
+              services behind them.
+            </p>
+          </li>
+        </ol>
       </section>
 
-      <section class="section" aria-labelledby="contact-title">
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
         <div class="section-head">
           <h2 id="contact-title">Contact</h2>
-          <p class="section-dek">For thoughtful work, technical questions, or a good problem.</p>
+          <p class="section-dek">Email gets the quickest reply.</p>
         </div>
-        <ul class="contact-list">
-          <li>
-            <a class="contact-link" href="https://www.linkedin.com/in/aditya-lucky-septiadi" target="_blank" rel="noreferrer">
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a class="contact-link" href="https://github.com/adityals" target="_blank" rel="noreferrer">GitHub</a>
-          </li>
-          <li>
-            <a class="contact-link" href="mailto:aditseptiadi@gmail.com" target="_blank" rel="noreferrer">Email</a>
-          </li>
+        <a class="contact-mail" href="mailto:aditseptiadi@gmail.com">aditseptiadi@gmail.com</a>
+        <ul class="inline-links">
+          <li><a href="https://github.com/adityals" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/aditya-lucky-septiadi" target="_blank" rel="noreferrer">LinkedIn</a></li>
         </ul>
       </section>
 
       <footer class="page-footer">
-        <p>© 2026 Aditya Septiadi <span aria-hidden="true">·</span> <span>Last updated 2026</span></p>
+        <p>© 2026 Aditya Lucky Septiadi</p>
+        <p>Updated November 2026</p>
       </footer>
     </main>
+
   </body>
 </html>
